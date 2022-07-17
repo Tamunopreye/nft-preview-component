@@ -1,8 +1,10 @@
-*::before::after {
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+*::before, *::after {
     box-sizing: inherit;
 }
 
 html {
+    font-family: 'Outfit', sans-serif;
     box-sizing: border-box;
 }
 
@@ -72,6 +74,7 @@ body {
 }
 .img-wrapper:hover > .overlay-img.fade {
     opacity: 1;
+    cursor: pointer;
 }
 
 .head-text {
@@ -96,6 +99,7 @@ hr {
     display: flex;
     /* justify-content: space-between; */
     gap: 10px;
+    cursor: pointer;
 }
 
 .footer img {
